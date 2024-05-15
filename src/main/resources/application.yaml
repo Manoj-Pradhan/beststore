@@ -1,0 +1,13 @@
+server:
+  port: 1200
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/store"
+    username: "root"
+    password: "root"
+  jpa:
+   properties:
+     ddl-auto: update
+
+
